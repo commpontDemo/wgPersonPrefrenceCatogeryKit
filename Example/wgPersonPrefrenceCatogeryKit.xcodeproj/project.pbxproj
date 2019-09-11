@@ -60,13 +60,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74ACC3B68A91A3959F0C2EE9 /* Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-wgPersonPrefrenceCatogeryKit_Tests/Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		77653B602BAA87E3E1218510 /* Pods_wgPersonPrefrenceCatogeryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wgPersonPrefrenceCatogeryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D3E2E0A04D7F5CAD217123 /* wgPersonPrefrenceCatogeryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = wgPersonPrefrenceCatogeryKit.podspec; path = ../wgPersonPrefrenceCatogeryKit.podspec; sourceTree = "<group>"; };
+		86D3E2E0A04D7F5CAD217123 /* wgPersonPrefrenceCatogeryKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wgPersonPrefrenceCatogeryKit.podspec; path = ../wgPersonPrefrenceCatogeryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AE29B0D76E05E527BC5ACDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8AE29B0D76E05E527BC5ACDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A2FE7F95079F0E23AC885A96 /* Pods-wgPersonPrefrenceCatogeryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wgPersonPrefrenceCatogeryKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-wgPersonPrefrenceCatogeryKit_Example/Pods-wgPersonPrefrenceCatogeryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C06590CECE65E61366E674EC /* Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-wgPersonPrefrenceCatogeryKit_Tests/Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC2DF19033B26C98D91F84A6 /* Pods_wgPersonPrefrenceCatogeryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wgPersonPrefrenceCatogeryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F146C8922611AF5EF8A4BD21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F146C8922611AF5EF8A4BD21 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				C06590CECE65E61366E674EC /* Pods-wgPersonPrefrenceCatogeryKit_Tests.debug.xcconfig */,
 				74ACC3B68A91A3959F0C2EE9 /* Pods-wgPersonPrefrenceCatogeryKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

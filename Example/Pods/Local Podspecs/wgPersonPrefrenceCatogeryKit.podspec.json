@@ -1,0 +1,22 @@
+{
+  "name": "wgPersonPrefrenceCatogeryKit",
+  "version": "2",
+  "summary": "wgPersonPrefrenceCatogeryKit",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/commpontDemo/wgPersonPrefrenceCatogeryKit.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nilinen": "404511077@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/commpontDemo/wgPersonPrefrenceCatogeryKit.git",
+    "tag": "2"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "wgPersonPrefrenceCatogeryKit/Classes/**/*"
+}
